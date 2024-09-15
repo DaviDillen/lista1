@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    printf("media");
+    float a, b, c, d, media;
+    scanf("%f %f %f %f", &a, &b, &c, &d );
+    media = a + b + c + d;
+    if (media >= 28){
+        printf( "poce foi aprovado");
+    }else{
+        printf("voce foi reprovado");
+    }
+    return 0;
