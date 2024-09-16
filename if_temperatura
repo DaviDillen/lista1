@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    float t;
+    printf(":");
+    scanf("%f", t);
+    if(-10 < t <= 0){
+        printf("risco baixo");
+    }else{
+        if (0 < t <= 10){
+            printf("media");
+        }else{
+            if(10 < t <= 20){
+                printf("alta");
+            }
+        }
+    }
+    return 0;
+}
